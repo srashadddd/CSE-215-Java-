@@ -46,12 +46,12 @@ public class Calculator {
         return "Product of " + a + ", " + b + ", and " + c + ": " + (a * b * c);
     }
 
-    // Square or cube of a double
+    // Square or cube of the double number to be calcuated
     static String calculate(double num, String operator) {
         if (operator.equalsIgnoreCase("square")) {
             return "Square of " + num + ": " + (num * num);
         } else if (operator.equalsIgnoreCase("cube")) {
-            return "Cube of " + num + ": " + (num * num * num);
+            return "Cube of the " + num + ": " + (num * num * num);
         } else {
             return "Invalid operator";
         }
