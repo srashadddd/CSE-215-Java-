@@ -9,7 +9,7 @@ public class SumOddNumbers {
         int sum = 0;
         // Loop through numbers from 1 to n
         for (int i = 1; i <= n; i++) {
-            if (i % 2 != 0) { // check if odd
+            if (i % 2 != 0) { // check if number is odd or not
                 sum += i;
             }
         }
@@ -18,3 +18,4 @@ public class SumOddNumbers {
         sc.close();
     }
 }
+
